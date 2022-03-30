@@ -1,1 +1,1 @@
-# nginx_AWS_ec2_Ubuntu_lts
+# Install Nginx on AWS EC2 Ubuntu using Packer
