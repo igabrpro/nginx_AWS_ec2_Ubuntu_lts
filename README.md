@@ -21,9 +21,9 @@ Install instructions [here](https://learn.hashicorp.com/tutorials/packer/get-sta
      export AWS_SECRET_ACCESS_KEY=
      export AWS_SESSION_TOKEN=
      ```
-4. Note that nginx-ubuntu.pkr.hcl will configure ec2 in us-west-2 you can change this but note taht ami images are diferent in the diferent regions, so this image may not be avalialbe so if you cange the region you may need to change 'source_ami'
-5. To start the build execute 'packer build nginx-ubuntu.pkr.hcl'
-6. after triggering the command you shuld get simila output to 
+4. `nginx-ubuntu.pkr.hcl` will configure ec2 in us-west-2 you can change this but note that ami images are diferent in the diferent regions, so this image may not be avalialbe so if you cange the region you may need to change `source_ami`.
+5. To start the build execute `packer build nginx-ubuntu.pkr.hcl`
+6. After triggering the command you shuld get similar output to 
 ```
 ==> Builds finished. The artifacts of successful builds are:
 --> nginx-install.amazon-ebs.ubuntu-focal: AMIs were created:
